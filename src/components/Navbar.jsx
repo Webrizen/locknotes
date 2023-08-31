@@ -16,7 +16,11 @@ export default function Navbar() {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/">
           <span className="text-white text-xl font-semibold flex flex-row gap-1 w-min items-center p-1">
-            <Image src={Logo} alt="Logo" className="w-10 h-10 mr-2 mix-blend-screen" />
+            <Image
+              src={Logo}
+              alt="Logo"
+              className="w-10 h-10 mr-2 mix-blend-screen"
+            />
             LockNotes
           </span>
         </Link>
@@ -38,10 +42,20 @@ export default function Navbar() {
                 />
               </svg>
             ) : (
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M3.75 9h16.5m-16.5 6.75h16.5"
+                />
               </svg>
-              
             )}
           </button>
         </div>
@@ -59,7 +73,7 @@ export default function Navbar() {
             <span className="text-white hover:text-gray-300">Contact</span>
           </Link>
           <Link href="/accounts">
-          <span className="text-white hover:text-gray-300">Accounts</span>
+            <span className="text-white hover:text-gray-300">Accounts</span>
           </Link>
         </div>
       </div>
@@ -81,6 +95,20 @@ export default function Navbar() {
                 <Link href="/contact">
                   <span className="text-white hover:text-gray-300">
                     Contact
+                  </span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/sponsorships">
+                  <span className="text-white hover:text-gray-300">
+                    Sponsorships
+                  </span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/accounts">
+                  <span className="text-white hover:text-gray-300">
+                    Accounts
                   </span>
                 </Link>
               </li>
