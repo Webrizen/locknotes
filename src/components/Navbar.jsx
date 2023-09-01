@@ -15,7 +15,7 @@ export default function Navbar() {
     <nav className="fixed w-full z-50 bg-opacity-70 backdrop-blur-lg">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/">
-          <span className="text-white text-xl font-semibold flex flex-row gap-1 w-min items-center p-1">
+          <span className="dark:text-white text-xl font-semibold flex flex-row gap-1 w-min items-center p-1">
             <Image
               src={Logo}
               alt="Logo"
@@ -25,7 +25,7 @@ export default function Navbar() {
           </span>
         </Link>
         <div className="md:hidden">
-          <button onClick={toggleMenu} className="text-white">
+          <button onClick={toggleMenu} className="dark:text-white">
             {menuOpen ? (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -61,19 +61,19 @@ export default function Navbar() {
         </div>
         <div className="hidden md:flex space-x-6">
           <Link href="/">
-            <span className="text-white hover:text-gray-300">Home</span>
+            <span className="dark:text-white dark:hover:text-gray-300">Home</span>
           </Link>
           <Link href="/about">
-            <span className="text-white hover:text-gray-300">About</span>
+            <span className="dark:text-white dark:hover:text-gray-300">About</span>
           </Link>
           <Link href="/sponsorships">
-            <span className="text-white hover:text-gray-300">Sponsorships</span>
+            <span className="dark:text-white dark:hover:text-gray-300">Sponsorships</span>
           </Link>
           <Link href="/contact">
-            <span className="text-white hover:text-gray-300">Contact</span>
+            <span className="dark:text-white dark:hover:text-gray-300">Contact</span>
           </Link>
           <Link href="/accounts">
-            <span className="text-white hover:text-gray-300">Accounts</span>
+            <span className="dark:text-white dark:hover:text-gray-300">Accounts</span>
           </Link>
         </div>
       </div>
@@ -83,31 +83,31 @@ export default function Navbar() {
             <ul className="space-y-2">
               <li>
                 <Link href="/">
-                  <span className="text-white hover:text-gray-300">Home</span>
+                  <span className="dark:text-white dark:hover:text-gray-300">Home</span>
                 </Link>
               </li>
               <li>
                 <Link href="/about">
-                  <span className="text-white hover:text-gray-300">About</span>
+                  <span className="dark:text-white dark:hover:text-gray-300">About</span>
                 </Link>
               </li>
               <li>
                 <Link href="/contact">
-                  <span className="text-white hover:text-gray-300">
+                  <span className="dark:text-white dark:hover:text-gray-300">
                     Contact
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/sponsorships">
-                  <span className="text-white hover:text-gray-300">
+                  <span className="dark:text-white dark:hover:text-gray-300">
                     Sponsorships
                   </span>
                 </Link>
               </li>
               <li>
                 <Link href="/accounts">
-                  <span className="text-white hover:text-gray-300">
+                  <span className="dark:text-white dark:hover:text-gray-300">
                     Accounts
                   </span>
                 </Link>
