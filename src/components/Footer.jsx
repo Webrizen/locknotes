@@ -40,7 +40,7 @@ export function Footer() {
     <footer className="text-gray-600 body-font">
       <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
         <Link href="/" className="flex title-font font-medium items-center md:justify-start justify-center text-gray-600">
-          <Image src={Logo} alt="LockNotes" className="w-10 h-10 mix-blend-screen" />
+          <Image src={Logo} alt="LockNotes" className="w-10 h-10" />
           <span className="ml-3 text-xl">LockNotes</span>
         </Link>
         <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© {currentYear} LockNotes —
