@@ -2,22 +2,84 @@ import './globals.css';
 import { Poppins } from 'next/font/google';
 import Appearance from '@/app/Appearance';
 
-const poppins = Poppins({ 
+const poppins = Poppins({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-  subsets: ['latin'] 
+  subsets: ['latin']
 })
 
+
 export const metadata = {
-  title: 'Locknotes | A secure and easy way to share self-destructing notes',
-  description: 'A secure and easy way to share self-destructing notes',
-}
+  title: {
+    default: 'LockNotes | A Secure and Easy Way to Share Self-Destructing Notes',
+    template: '%s | LockNotes | A Secure and Easy Way to Share Self-Destructing Notes'
+  },
+  description: {
+    default: 'LockNotes is your secure platform for sharing self-destructing notes. Protect your information with our easy-to-use service.',
+    template: '%s | LockNotes - Share Self-Destructing Notes'
+  },
+  applicationName: 'LockNotes',
+  generator: 'LockNotes',
+  referrer: 'origin-when-cross-origin',
+  keywords: [
+    'Secure Notes',
+    'Self-Destructing Notes',
+    'LockNotes',
+    'Encrypted Notes',
+  ],
+  authors: [{ name: 'Arshahdul Ahmed', url: 'https://locknotes.io' }, { name: 'Harshit Jaiswal', url: 'https://locknotes.io' }],
+  publisher: 'Arshahdul Ahmed',
+  metadataBase: new URL('https://locknotes.io'),
+  openGraph: {
+    title: 'LockNotes',
+    description: 'LockNotes is your secure platform for sharing self-destructing notes. Protect your information with our easy-to-use service.',
+    url: 'https://locknotes.io',
+    siteName: 'LockNotes',
+    images: [
+      {
+        url: 'https://locknotes.io/locknotes.png',
+        width: 500,
+        height: 500,
+        alt: 'LockNotes Logo',
+      }
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  icons: {
+    icon: '/locknotes.png',
+    shortcut: '/locknotes.png',
+    apple: '/locknotes.png',
+    other: {
+      rel: 'apple-touch-icon-precomposed',
+      url: '/locknotes.png',
+    },
+  },
+  manifest: 'https://locknotes.io/manifest.json',
+  twitter: {
+    card: 'summary_large_image',
+    title: 'LockNotes',
+    description: 'LockNotes is your secure platform for sharing self-destructing notes. Protect your information with our easy-to-use service.',
+    creator: '@LockNotes',
+    images: ['https://locknotes.io/locknotes.png'],
+  },
+  verification: {
+    google: 'google',
+    yandex: 'yandex',
+    yahoo: 'yahoo',
+    other: {
+      me: ['support@locknotes.io', 'locknotes.io'],
+    },
+  },
+  category: 'Secure Notes',
+};
+
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={poppins.className}>
-       <Appearance children={children} />
-        </body>
+        <Appearance children={children} />
+      </body>
     </html>
   )
 }

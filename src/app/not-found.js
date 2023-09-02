@@ -1,6 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+export const metadata = {
+    title: '404 - Page Not Found',
+    description: `Oops! The page you're looking for does not exist.`,
+  }
+
 export default function NotFound() {
     return (
         <div className="min-h-screen py-28 flex flex-col justify-center items-center">

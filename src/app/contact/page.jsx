@@ -1,5 +1,10 @@
 import React from "react";
 
+export const metadata = {
+  title: `Contact Us | LockNotes - Secure and Easy Self-Destructing Notes`,
+  description: `Have questions or feedback for us? We're here to help! Feel free to reach out to our dedicated support team through the Contact Us section. Your input matters, and we're committed to providing you with the best experience while using LockNotes. Get in touch today!`,
+}
+
 export default function Page() {
   return (
     <>

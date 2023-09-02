@@ -1,5 +1,10 @@
 import { AccountsTabs } from '@/components/AccountsTabs';
-import React from 'react'
+import React from 'react';
+
+export const metadata = {
+  title: `Accounts | LockNotes - Manage Your Accounts`,
+  description: `Manage your LockNotes account settings. Update your profile, change your password, and customize your LockNotes experience with ease.`,
+}
 
 export default function page() {
   return (

@@ -1,4 +1,9 @@
-import React from 'react'
+import React from 'react';
+
+export const metadata = {
+  title: `Unlock Opportunities: Sponsor LockNotes | Secure Note-Sharing Platform`,
+  description: `Become a sponsor and unlock opportunities with LockNotes. Join us in supporting a secure note-sharing platform that values your privacy. Partner with us today.`,
+}
 
 export default function page() {
   return (

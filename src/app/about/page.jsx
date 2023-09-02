@@ -2,6 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
+export const metadata = {
+  title: `About LockNotes - Learn More About Our Secure Note Sharing Platform`,
+  description: `Discover the story behind LockNotes, a secure and user-friendly platform for sharing self-destructing notes. Learn how we prioritize your data security and confidentiality.`,
+}
+
 export default function Page() {
   return (
     <>
