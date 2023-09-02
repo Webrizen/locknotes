@@ -75,7 +75,7 @@ export default function MainHome() {
       <div className="container flex flex-col justify-center items-center h-full mx-auto text-center py-20 px-4 relative z-10">
         <Chip
           variant="outlined"
-          className="rounded-full mb-4"
+          className="rounded-full mb-4 text-blue-500"
           value={<Link href="/accounts">Free custom URL feature.</Link>}
           icon={<Icon />}
         />
