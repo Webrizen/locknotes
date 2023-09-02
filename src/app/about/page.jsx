@@ -59,7 +59,7 @@ export default function Page() {
                   height={200}
                 />
                 <div class="flex-grow sm:pl-8">
-                  <h2 class="title-font font-medium text-lg text-gray-900">
+                  <h2 class="title-font font-medium text-lg ">
                   Arshahdul Ahmed
                   </h2>
                   <h3 class="text-gray-500 mb-3">CTO & Founder</h3>
@@ -120,7 +120,7 @@ export default function Page() {
                   height={200}
                 />
                 <div class="flex-grow sm:pl-8">
-                  <h2 class="title-font font-medium text-lg text-gray-900">
+                  <h2 class="title-font font-medium text-lg">
                   Harshit Jaiswal
                   </h2>
                   <h3 class="text-gray-500 mb-3">CEO & Co-Founder</h3>
