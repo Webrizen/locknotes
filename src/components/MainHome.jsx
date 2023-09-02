@@ -11,6 +11,7 @@ import {
   Textarea,
   Chip,
 } from "@material-tailwind/react";
+import Link from "next/link";
 
 function Icon() {
   return (
@@ -35,7 +36,7 @@ export default function MainHome() {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen((cur) => !cur);
   return (
-    <section className={`hero h-screen relative`}>
+    <section className={`hero min-h-screen flex flex-col items-center justify-center text-center relative`}>
       <div className="grid grid-cols-4 absolute inset-0 -z-10 w-10/12 h-4/5 m-auto">
         {[...Array(16)].map((_, index) => (
           <div
@@ -48,7 +49,7 @@ export default function MainHome() {
         <Chip
           variant="outlined"
           className="rounded-full mb-4"
-          value="custom URL feature available with free locknotes account"
+          value={<Link href="/accounts">Free custom URL feature.</Link>}
           icon={<Icon />}
         />
         <h1 className="font-bold text-7xl dark:bg-gradient-to-r dark:from-white dark:via-gray-300 dark:to-gray-600 dark:bg-clip-text dark:text-transparent">
