@@ -18,14 +18,14 @@ export default function Navbar() {
           <span className="dark:text-white text-xl font-semibold flex flex-row gap-1 w-min items-center p-1">
             <Image
               src={Logo}
-              alt="Logo"
+              alt="LockNotes"
               className="w-10 h-10 mr-2 mix-blend-screen"
             />
             LockNotes
           </span>
         </Link>
         <div className="md:hidden">
-          <button onClick={toggleMenu} className="dark:text-white">
+          <button onClick={toggleMenu} className="dark:text-white" aria-label="Menu" title="Menu">
             {menuOpen ? (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
