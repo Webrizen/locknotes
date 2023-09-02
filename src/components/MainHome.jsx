@@ -45,7 +45,7 @@ export default function MainHome() {
           value={<Link href="/accounts">Free custom URL feature.</Link>}
           icon={<Icon />}
         />
-        <h1 className="font-bold text-7xl dark:bg-gradient-to-r dark:from-white dark:via-gray-300 dark:to-gray-600 dark:bg-clip-text dark:text-transparent">
+        <h1 className="font-bold md:text-7xl text-5xl dark:bg-gradient-to-r dark:from-white dark:via-gray-300 dark:to-gray-600 dark:bg-clip-text dark:text-transparent">
           Encrypt and Self-Destruct Your Notes
         </h1>
         <p className="text-lg mb-8 mt-8">
