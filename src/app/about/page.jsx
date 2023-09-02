@@ -40,18 +40,18 @@ export default function Page() {
               OUR FOUNDERS
             </h1>
             <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-              Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-              gentrify, subway tile poke farm-to-table. Franzen you probably
-              haven't heard of them.
+            Our founders, Arshahdul Ahmed and Harshit Jaiswal, are the driving forces behind LockNotes. With a shared passion for technology and a relentless pursuit of innovation, they've crafted a secure and user-friendly platform that prioritizes your digital privacy. Get to know the wizards behind LockNotes and their remarkable journey of turning ideas into reality, one innovation at a time.
             </p>
           </div>
           <div class="flex flex-wrap -m-4">
             <div class="p-4 lg:w-1/2">
               <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                <img
+                <Image
                   alt="team"
-                  class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                  src="https://locknotes.vercel.app/_next/image?url=https%3A%2F%2Fcdn.truelancer.com%2Fuser-picture%2F2291453-64bde53e0a49b.jpg&w=256&q=75"
+                  class="flex-shrink-0 rounded-3xl w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                  src="https://cdn.truelancer.com/user-picture/2291453-64bde53e0a49b.jpg"
+                  width={200}
+                  height={200}
                 />
                 <div class="flex-grow sm:pl-8">
                   <h2 class="title-font font-medium text-lg text-gray-900">
@@ -107,10 +107,12 @@ export default function Page() {
             </div>
             <div class="p-4 lg:w-1/2">
               <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                <img
+                <Image
                   alt="team"
-                  class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                  src="https://locknotes.vercel.app/_next/image?url=https%3A%2F%2Fcdn.truelancer.com%2Fuser-picture%2F2281329-64ae8cd501d65.jpg&w=256&q=75"
+                  class="flex-shrink-0 rounded-3xl w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                  src="https://cdn.truelancer.com/user-picture/2281329-64ae8cd501d65.jpg"
+                  width={200}
+                  height={200}
                 />
                 <div class="flex-grow sm:pl-8">
                   <h2 class="title-font font-medium text-lg text-gray-900">
