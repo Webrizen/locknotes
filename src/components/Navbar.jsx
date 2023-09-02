@@ -18,7 +18,7 @@ export default function Navbar() {
           <span className="dark:text-white text-xl font-semibold flex flex-row gap-1 w-min items-center p-1">
             <Image
               src={Logo}
-              alt="LockNotes"
+              alt="LockNotes Logo"
               className="w-10 h-10 mr-2 mix-blend-screen"
             />
             LockNotes
