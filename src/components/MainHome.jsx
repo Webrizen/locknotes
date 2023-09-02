@@ -63,7 +63,7 @@ export default function MainHome() {
             variant="text"
             className="dark:text-white border-1 border-gray-100"
           >
-            Learn More
+            About
           </Button>
           </Link>
         </div>
