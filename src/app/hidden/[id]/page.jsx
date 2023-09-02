@@ -47,11 +47,6 @@ export default function ReadSecretNote({ params }) {
     try {
       const noteDocRef = doc(firestore, "notes", params.id);
       await deleteDoc(noteDocRef);
-      Swal.fire({
-        icon: "success",
-        title: "Note Deleted",
-        text: "The note has been successfully deleted.",
-      });
     } catch (error) {
       console.error("Error deleting note: ", error);
       Swal.fire({
