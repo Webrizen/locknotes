@@ -63,7 +63,7 @@ export const metadata = {
     images: ['https://locknotes.in/locknotes.png'],
   },
   verification: {
-    google: 'google',
+    google: 'ZimtqbgHB1CKv_n_kRC1E_OZtGlIOq4V1vWULWYtso8',
     yandex: 'yandex',
     yahoo: 'yahoo',
     other: {
