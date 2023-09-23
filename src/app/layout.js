@@ -71,6 +71,8 @@ export default function RootLayout({ children }) {
       <body className={poppins.className}>
         <Appearance children={children} />
         <Analytics />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3332601026052989"
+          crossorigin="anonymous"></script>
       </body>
     </html>
   )
