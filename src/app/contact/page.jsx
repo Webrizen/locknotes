@@ -3,7 +3,7 @@ import React from "react";
 export const metadata = {
   title: `Contact Us | LockNotes - Secure and Easy Self-Destructing Notes`,
   description: `Have questions or feedback for us? We're here to help! Feel free to reach out to our dedicated support team through the Contact Us section. Your input matters, and we're committed to providing you with the best experience while using LockNotes. Get in touch today!`,
-}
+};
 
 export default function Page() {
   return (
@@ -15,19 +15,28 @@ export default function Page() {
               Contact Us
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              Have questions or feedback for us? We're here to help! Feel free to reach out to our dedicated support team through the Contact Us section. Your input matters, and we're committed to providing you with the best experience while using LockNotes. Get in touch today!
+              Have questions or feedback for us? We're here to help! Feel free
+              to reach out to our dedicated support team through the Contact Us
+              section. Your input matters, and we're committed to providing you
+              with the best experience while using LockNotes. Get in touch
+              today!
             </p>
           </div>
           <div className="lg:w-1/2 md:w-2/3 mx-auto">
             <div className="flex flex-wrap -m-2">
+              <form className="w-full flex flex-wrap -m-2" id="contact_form" action="https://formsubmit.io/send/8d2ea8c6-8ab1-4212-b027-d846eeeb27e5" method="POST">
               <div className="p-2 w-1/2">
                 <div className="relative">
-                  <label htmlFor="name" className="leading-7 text-sm text-gray-600">
+                  <label
+                    htmlFor="name"
+                    className="leading-7 text-sm text-gray-600"
+                  >
                     Name
                   </label>
                   <input
                     type="text"
                     id="name"
+                    required
                     name="name"
                     className="w-full  bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />
@@ -45,6 +54,7 @@ export default function Page() {
                     type="email"
                     id="email"
                     name="email"
+                    required
                     className="w-full  bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />
                 </div>
@@ -60,13 +70,16 @@ export default function Page() {
                   <select
                     id="subject"
                     name="subject"
+                    required
                     className="w-full  bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-2 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   >
                     <option value="general">General Inquiry</option>
                     <option value="support">Customer Support</option>
                     <option value="billing">Billing Questions</option>
                     <option value="system error">System Error</option>
-                    <option value="Account Delete Request">Account Delete Request</option>
+                    <option value="Account Delete Request">
+                      Account Delete Request
+                    </option>
                   </select>
                 </div>
               </div>
@@ -81,21 +94,23 @@ export default function Page() {
                   <textarea
                     id="message"
                     name="message"
+                    required
                     className="w-full  bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                   ></textarea>
                 </div>
               </div>
               <div className="p-2 w-full">
-                <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded">
+                <button type="submit" className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded">
                   Submit
                 </button>
               </div>
+              </form>
               <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
                 <a className="text-indigo-500">support@locknotes.io</a>
                 <p className="leading-normal my-5">
                   Somewhere On Earth
                   <br />
-                 between Clouds - 00000
+                  between Clouds - 00000
                 </p>
                 <span className="inline-flex">
                   <a className="text-gray-500">

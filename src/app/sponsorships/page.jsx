@@ -72,8 +72,8 @@ It's important to note that we do not feature sponsors on our homepage. This app
             Interested in sponsoring LockNotes or have questions about our sponsorship opportunities? Please reach out to our team, and we'll be happy to assist you.
           </p>
           <div className="mt-6">
-            <a href="mailto:sponsorship@locknotes.io" className="text-indigo-500 hover:underline">
-              sponsorship@locknotes.io
+            <a href="mailto:sponsorship@locknotes.in" className="text-indigo-500 hover:underline">
+              sponsorship@locknotes.in
             </a>
           </div>
         </section>

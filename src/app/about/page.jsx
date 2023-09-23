@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import jayandra from '@/assets/jayandra.webp';
 
 export const metadata = {
   title: `About LockNotes - Learn More About Our Secure Note Sharing Platform`,
@@ -66,47 +67,6 @@ export default function Page() {
                   <p class="mb-4">
                   Meet Arshahdul Ahmed, a 17-year-old web wizard with a passion for technology. As an experienced Full Stack Developer, Arshahdul has navigated diverse landscapes, creating seamless experiences with Next.js, MERN Stack, and the enchantment of Tailwind CSS. But his curiosity doesn't stop there. Arshahdul explores AI & ML, adding an exciting layer of intelligence to his creations. He's a versatile developer, from crafting eye-catching designs to mastering PHP, WordPress, and APIs. Arshahdul has conquered the wild web with platforms like Sanity.io, Firebase, Supabase, and AWS. Collaboration is where he thrives, turning lines of code into collaborative masterpieces. Join him on a journey of turning ideas into reality, one innovation at a time!
                   </p>
-                  <span class="inline-flex">
-                    <a class="text-gray-500">
-                      <svg
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        class="w-5 h-5"
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                      </svg>
-                    </a>
-                    <a class="ml-2 text-gray-500">
-                      <svg
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        class="w-5 h-5"
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                      </svg>
-                    </a>
-                    <a class="ml-2 text-gray-500">
-                      <svg
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        class="w-5 h-5"
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                      </svg>
-                    </a>
-                  </span>
                 </div>
               </div>
             </div>
@@ -115,59 +75,18 @@ export default function Page() {
                 <Image
                   alt="team"
                   class="flex-shrink-0 rounded-3xl w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                  src="https://cdn.truelancer.com/user-picture/2281329-64ae8cd501d65.jpg"
+                  src={jayandra}
                   width={200}
                   height={200}
                 />
                 <div class="flex-grow sm:pl-8">
                   <h2 class="title-font font-medium text-lg">
-                  Harshit Jaiswal
+                  Jayandra Babu
                   </h2>
                   <h3 class="text-gray-500 mb-3">CEO & Co-Founder</h3>
                   <p class="mb-4">
-                  Introducing Harshit Jaiswal, a 21-year-old Website Developer and App Developer. His passion lies in WordPress development, aiming to understand clients' requirements precisely and deliver extraordinary results. Harshit specializes in designing high-quality WordPress websites with mobile responsiveness. His services include content upload, speed optimization, SEO-friendly design, and even basic logo design if needed. Harshit guarantees 100% client satisfaction and quality, making it his top priority. He's skilled in various niches, from blogs and businesses to e-commerce, photography, health, and more.
+                  Introducing Jayandra Babu, a 21-year-old Website Developer and App Developer. His passion lies in WordPress development, aiming to understand clients' requirements precisely and deliver extraordinary results. Harshit specializes in designing high-quality WordPress websites with mobile responsiveness. His services include content upload, speed optimization, SEO-friendly design, and even basic logo design if needed. Harshit guarantees 100% client satisfaction and quality, making it his top priority. He's skilled in various niches, from blogs and businesses to e-commerce, photography, health, and more.
                   </p>
-                  <span class="inline-flex">
-                    <a class="text-gray-500">
-                      <svg
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        class="w-5 h-5"
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                      </svg>
-                    </a>
-                    <a class="ml-2 text-gray-500">
-                      <svg
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        class="w-5 h-5"
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                      </svg>
-                    </a>
-                    <a class="ml-2 text-gray-500">
-                      <svg
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        class="w-5 h-5"
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                      </svg>
-                    </a>
-                  </span>
                 </div>
               </div>
             </div>

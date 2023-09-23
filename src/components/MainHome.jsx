@@ -48,20 +48,15 @@ export default function MainHome() {
         <h1 className="font-bold md:text-7xl text-5xl dark:bg-gradient-to-r dark:from-white dark:via-gray-300 dark:to-gray-600 dark:bg-clip-text dark:text-transparent">
           Encrypt and Self-Destruct Your Notes
         </h1>
-        <p className="text-lg mb-8 mt-8">
-          LockNotes is a web app that lets you create and share notes that are
-          encrypted and self-destructing. You can use LockNotes to send
-          sensitive information, such as passwords, bank details, or
-          confidential messages, without worrying about anyone else accessing
-          them. LockNotes uses end-to-end encryption to ensure that only you and
-          the intended recipient can read the notes.
+        <p className="text-lg mb-7 mt-8 w-3/4">
+        LockNotes can also empower freelancers to communicate with clients securely and directly, bypassing freelancing platforms and avoiding commission fees.
         </p>
         <div className="w-full flex flex-row justify-center gap-2 items-center whitespace-nowrap">
-          <Link href="/create"><Button>Get Started</Button></Link>
+          <Link href="/create"><Button>Create Note</Button></Link>
           <Link href="/about">
           <Button
             variant="text"
-            className="dark:text-white border-1 border-gray-100"
+            className="dark:text-white border-1 border-gray-100 text-gray-400"
           >
             About
           </Button>
