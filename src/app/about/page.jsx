@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import jayandra from '@/assets/jayandra.webp';
+import jayandra from "@/assets/jayandra.webp";
 
 export const metadata = {
   title: `About LockNotes - Learn More About Our Secure Note Sharing Platform`,
   description: `Discover the story behind LockNotes, a secure and user-friendly platform for sharing self-destructing notes. Learn how we prioritize your data security and confidentiality.`,
-}
+};
 
 export default function Page() {
   return (
@@ -46,7 +46,12 @@ export default function Page() {
               OUR FOUNDERS
             </h1>
             <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Our founders, Arshahdul Ahmed and Harshit Jaiswal, are the driving forces behind LockNotes. With a shared passion for technology and a relentless pursuit of innovation, they've crafted a secure and user-friendly platform that prioritizes your digital privacy. Get to know the wizards behind LockNotes and their remarkable journey of turning ideas into reality, one innovation at a time.
+              Our founders, Arshahdul Ahmed and Jayandra Babu, are the driving
+              forces behind LockNotes. With a shared passion for technology and
+              a relentless pursuit of innovation, they've crafted a secure and
+              user-friendly platform that prioritizes your digital privacy. Get
+              to know the wizards behind LockNotes and their remarkable journey
+              of turning ideas into reality, one innovation at a time.
             </p>
           </div>
           <div class="flex flex-wrap -m-4">
@@ -61,11 +66,23 @@ export default function Page() {
                 />
                 <div class="flex-grow sm:pl-8">
                   <h2 class="title-font font-medium text-lg ">
-                  Arshahdul Ahmed
+                    Arshahdul Ahmed
                   </h2>
                   <h3 class="text-gray-500 mb-3">CTO & Founder</h3>
                   <p class="mb-4">
-                  Meet Arshahdul Ahmed, a 17-year-old web wizard with a passion for technology. As an experienced Full Stack Developer, Arshahdul has navigated diverse landscapes, creating seamless experiences with Next.js, MERN Stack, and the enchantment of Tailwind CSS. But his curiosity doesn't stop there. Arshahdul explores AI & ML, adding an exciting layer of intelligence to his creations. He's a versatile developer, from crafting eye-catching designs to mastering PHP, WordPress, and APIs. Arshahdul has conquered the wild web with platforms like Sanity.io, Firebase, Supabase, and AWS. Collaboration is where he thrives, turning lines of code into collaborative masterpieces. Join him on a journey of turning ideas into reality, one innovation at a time!
+                    Meet Arshahdul Ahmed, a 17-year-old web wizard with a
+                    passion for technology. As an experienced Full Stack
+                    Developer, Arshahdul has navigated diverse landscapes,
+                    creating seamless experiences with Next.js, MERN Stack, and
+                    the enchantment of Tailwind CSS. But his curiosity doesn't
+                    stop there. Arshahdul explores AI & ML, adding an exciting
+                    layer of intelligence to his creations. He's a versatile
+                    developer, from crafting eye-catching designs to mastering
+                    PHP, WordPress, and APIs. Arshahdul has conquered the wild
+                    web with platforms like Sanity.io, Firebase, Supabase, and
+                    AWS. Collaboration is where he thrives, turning lines of
+                    code into collaborative masterpieces. Join him on a journey
+                    of turning ideas into reality, one innovation at a time!
                   </p>
                 </div>
               </div>
@@ -80,12 +97,20 @@ export default function Page() {
                   height={200}
                 />
                 <div class="flex-grow sm:pl-8">
-                  <h2 class="title-font font-medium text-lg">
-                  Jayandra Babu
-                  </h2>
+                  <h2 class="title-font font-medium text-lg">Jayandra Babu</h2>
                   <h3 class="text-gray-500 mb-3">CEO & Co-Founder</h3>
                   <p class="mb-4">
-                  Introducing Jayandra Babu, a 21-year-old Website Developer and App Developer. His passion lies in WordPress development, aiming to understand clients' requirements precisely and deliver extraordinary results. Harshit specializes in designing high-quality WordPress websites with mobile responsiveness. His services include content upload, speed optimization, SEO-friendly design, and even basic logo design if needed. Harshit guarantees 100% client satisfaction and quality, making it his top priority. He's skilled in various niches, from blogs and businesses to e-commerce, photography, health, and more.
+                    Introducing Jayandra Babu, Jayandra Babu Pilla is a highly
+                    accomplished individual with a distinguished background in
+                    the military. Having served in the Navy, he brings valuable
+                    leadership skills, discipline, and strategic thinking to the
+                    helm of Vijetha Softwares as its CEO. Alongside his military
+                    career, he pursued his passion for nautical science, earning
+                    a Bachelor's degree in the field. As the CEO, Jayandra's
+                    experience in both the military and technology domains
+                    enables him to make informed decisions, foster a culture of
+                    excellence, and lead the team towards achieving the
+                    company's goals with utmost dedication and resilience
                   </p>
                 </div>
               </div>
@@ -122,7 +147,7 @@ export default function Page() {
                   <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
                     Firebase
                   </h2>
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                  <h1 className="title-font text-lg font-medium darK:text-gray-600 mb-3">
                     Cloud Database & Authentication
                   </h1>
                   <p className="leading-relaxed mb-3">
@@ -165,7 +190,7 @@ export default function Page() {
                   <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
                     Next.js
                   </h2>
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                  <h1 className="title-font text-lg font-medium darK:text-gray-600 mb-3">
                     Full Stack Production
                   </h1>
                   <p className="leading-relaxed mb-3">
@@ -208,7 +233,7 @@ export default function Page() {
                   <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
                     Tailwind CSS
                   </h2>
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                  <h1 className="title-font text-lg font-medium darK:text-gray-600 mb-3">
                     Design Framework
                   </h1>
                   <p className="leading-relaxed mb-3">
@@ -253,7 +278,7 @@ export default function Page() {
                   <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
                     SweetAlert2
                   </h2>
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                  <h1 className="title-font text-lg font-medium darK:text-gray-600 mb-3">
                     User Notifications
                   </h1>
                   <p className="leading-relaxed mb-3">
@@ -296,7 +321,7 @@ export default function Page() {
                   <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
                     Heroicons
                   </h2>
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                  <h1 className="title-font text-lg font-medium darK:text-gray-600 mb-3">
                     Icon Library
                   </h1>
                   <p className="leading-relaxed mb-3">
@@ -339,7 +364,7 @@ export default function Page() {
                   <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
                     Vercel
                   </h2>
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                  <h1 className="title-font text-lg font-medium darK:text-gray-600 mb-3">
                     Hosting Platform
                   </h1>
                   <p className="leading-relaxed mb-3">
