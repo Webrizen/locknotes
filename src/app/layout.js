@@ -46,15 +46,6 @@ export const metadata = {
     locale: 'en_US',
     type: 'website',
   },
-  icons: {
-    icon: '/locknotes.png',
-    shortcut: '/locknotes.png',
-    apple: '/locknotes.png',
-    other: {
-      rel: 'apple-touch-icon-precomposed',
-      url: '/locknotes.png',
-    },
-  },
   twitter: {
     card: 'summary_large_image',
     title: 'LockNotes',
