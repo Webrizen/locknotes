@@ -68,7 +68,7 @@ export const metadata = {
     yandex: 'yandex',
     yahoo: 'yahoo',
     other: {
-      me: ['support@locknotes.in', 'locknotes.in'],
+      me: ['vijethasoftwaresols@gmail.com', 'locknotes.in'],
     },
   },
   category: 'Secure Notes',

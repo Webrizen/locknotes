@@ -106,7 +106,7 @@ export default function Page() {
               </div>
               </form>
               <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-                <a className="text-indigo-500">support@locknotes.io</a>
+                <a href="mailto:vijethasoftwaresols@gmail.com" className="text-indigo-500">vijethasoftwaresols@gmail.com</a>
                 <p className="leading-normal my-5">
                   Somewhere On Earth
                   <br />
