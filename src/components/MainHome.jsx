@@ -49,14 +49,14 @@ export default function MainHome() {
           Encrypt and Self-Destruct Your Notes
         </h1>
         <p className="text-lg mb-7 mt-8 w-3/4">
-        LockNotes can also empower freelancers to communicate with clients securely and directly, bypassing freelancing platforms and avoiding commission fees.
+        LockNotes: Encrypt, Share, Forget. Send sensitive info securely with self-destructing notes. Only you and the recipient can read, thanks to end-to-end encryption.
         </p>
         <div className="w-full flex flex-row justify-center gap-2 items-center whitespace-nowrap">
           <Link href="/create"><Button>Create Note</Button></Link>
           <Link href="/about">
           <Button
             variant="text"
-            className="dark:text-white border-1 border-gray-100 text-gray-400"
+            className="dark:text-white border-1 border-gray-100 light:text-gray-400"
           >
             About
           </Button>
