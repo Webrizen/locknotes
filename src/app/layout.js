@@ -55,7 +55,6 @@ export const metadata = {
       url: '/locknotes.png',
     },
   },
-  manifest: 'https://locknotes.in/manifest.json',
   twitter: {
     card: 'summary_large_image',
     title: 'LockNotes',
