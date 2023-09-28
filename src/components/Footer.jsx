@@ -56,7 +56,7 @@ export function Footer() {
             />
           </span>
           <span className="ml-3 text-gray-500 border-l border-gray-500 px-3">
-            <Link href="/">Privacy Policy</Link>
+            <Link href="/privacy-policy">Privacy Policy</Link>
           </span>
         </span>
       </div>
