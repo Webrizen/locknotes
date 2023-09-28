@@ -21,15 +21,20 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
-.img-handle{
-  background: rgba(225,225,225,0.1);
+.img-handle {
+  background: rgba(225, 225, 225, 0.1);
   backdrop-filter: blur(900px);
+}
+
+.bg-wrapper {
+  background-color: #000000;
+  opacity: 0.8;
+  background-image: radial-gradient(rgba(225,225,225,0.1) 2px, transparent 2px), radial-gradient(rgba(225,225,225,0.3) 2px, #000000 2px);
+  background-size: 80px 80px;
+  background-position: 0 0, 40px 40px;
 }

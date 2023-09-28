@@ -45,17 +45,17 @@ It's important to note that we do not feature sponsors on our homepage. This app
               <div className="p-4 rounded-lg border border-indigo-500">
                 <h3 className="text-lg font-semibold">Bronze Sponsor</h3>
                 <p className="text-gray-700 dark:text-gray-300 mt-2">Basic sponsorship with logo placement.</p>
-                <p className="text-gray-600 dark:text-gray-400 mt-2">Price: $500/month</p>
+                <p className="text-gray-600 dark:text-gray-400 mt-2">Price: $50/month</p>
               </div>
               <div className="p-4 rounded-lg border border-indigo-500">
                 <h3 className="text-lg font-semibold">Silver Sponsor</h3>
                 <p className="text-gray-700 dark:text-gray-300 mt-2">Enhanced sponsorship with featured logo placement.</p>
-                <p className="text-gray-600 dark:text-gray-400 mt-2">Price: $1,000/month</p>
+                <p className="text-gray-600 dark:text-gray-400 mt-2">Price: $100/month</p>
               </div>
               <div className="p-4 rounded-lg border border-indigo-500">
                 <h3 className="text-lg font-semibold">Gold Sponsor</h3>
                 <p className="text-gray-700 dark:text-gray-300 mt-2">Premium sponsorship with exclusive benefits.</p>
-                <p className="text-gray-600 dark:text-gray-400 mt-2">Price: $2,000/month</p>
+                <p className="text-gray-600 dark:text-gray-400 mt-2">Price: $200/month</p>
               </div>
               <div className="p-4 rounded-lg border border-indigo-500">
                 <h3 className="text-lg font-semibold">Platinum Sponsor</h3>
@@ -72,8 +72,8 @@ It's important to note that we do not feature sponsors on our homepage. This app
             Interested in sponsoring LockNotes or have questions about our sponsorship opportunities? Please reach out to our team, and we'll be happy to assist you.
           </p>
           <div className="mt-6">
-            <a href="mailto:sponsorship@locknotes.in" className="text-indigo-500 hover:underline">
-              sponsorship@locknotes.in
+            <a href="mailto:vijethasoftwaresols@gmail.com" className="text-indigo-500 hover:underline">
+            vijethasoftwaresols@gmail.com
             </a>
           </div>
         </section>
