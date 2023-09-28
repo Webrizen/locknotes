@@ -28,3 +28,8 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.img-handle{
+  background: rgba(225,225,225,0.1);
+  backdrop-filter: blur(900px);
+}

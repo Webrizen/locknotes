@@ -21,7 +21,7 @@ export default function Home() {
           <div className="flex flex-wrap items-center">
             <div className="hidden shrink-0 grow-0 basis-auto lg:flex lg:w-6/12 xl:w-4/12">
               <Image src={Hero} alt="Locknotes Helps You Redirect Clients"
-                className="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg" />
+                className="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg img-handle" />
             </div>
             <div className="w-full shrink-0 grow-0 basis-auto lg:w-6/12 xl:w-8/12 sm:text-left md:text-left text-center">
               <div className="px-6 py-12 md:px-12">
@@ -56,7 +56,7 @@ export default function Home() {
               <div
                 className="ripple relative overflow-hidden rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
                 data-te-ripple-init data-te-ripple-color="light">
-                <Image src={blogImage1} className="w-full" alt="Louvre" />
+                <Image src={blogImage1} className="w-full img-handle" alt="Louvre" />
                 <span>
                   <div
                     className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100">
@@ -93,7 +93,7 @@ export default function Home() {
               <div
                 className="ripple relative overflow-hidden rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
                 data-te-ripple-init data-te-ripple-color="light">
-                <Image src={blogImage2} className="w-full" alt="Louvre" />
+                <Image src={blogImage2} className="w-full img-handle" alt="Louvre" />
                 <span>
                   <div
                     className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100">
@@ -128,7 +128,7 @@ export default function Home() {
               <div
                 className="ripple relative overflow-hidden rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
                 data-te-ripple-init data-te-ripple-color="light">
-                <Image src={blogImage3} className="w-full" alt="Louvre" />
+                <Image src={blogImage3} className="w-full img-handle" alt="Louvre" />
                 <span>
                   <div
                     className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100">
