@@ -47,13 +47,16 @@ export function Footer() {
           <a href="https://vijethasoftwares.com" className="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">A Product By  vijetha softwares</a>
         </p>
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-          <span className="ml-3 text-gray-500">
+          <span className="ml-3 text-gray-900">
             <Switch
               label="Switch Theme"
               ripple={true}
               checked={darkMode}
               onChange={toggleTheme}
             />
+          </span>
+          <span className="ml-3 text-gray-500 border-l border-gray-500 px-3">
+            <Link href="/">Privacy Policy</Link>
           </span>
         </span>
       </div>

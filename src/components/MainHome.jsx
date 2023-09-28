@@ -25,7 +25,7 @@ function Icon() {
 export default function MainHome() {
   return (
     <section
-      className={`hero min-h-screen flex flex-col items-center justify-center text-center relative`}
+      className={`hero flex flex-col items-center justify-center text-center relative`}
     >
       <div className="grid grid-cols-4 absolute inset-0 -z-10 w-10/12 h-4/5 m-auto">
         {[...Array(16)].map((_, index) => (
@@ -35,7 +35,7 @@ export default function MainHome() {
           ></div>
         ))}
       </div>
-      <div className="container flex flex-col justify-center items-center h-full mx-auto text-center py-20 px-4 relative z-10">
+      <div className="container flex flex-col justify-center items-center h-full mx-auto text-center sm:py-36 md:py-36 sm:px-4 md:px-4 py-36 relative z-10">
         <Chip
           variant="outlined"
           className="rounded-full mb-4 text-blue-500"
@@ -45,7 +45,7 @@ export default function MainHome() {
         <h1 className="font-bold md:text-7xl text-5xl dark:bg-gradient-to-r dark:from-white dark:via-gray-300 dark:to-gray-600 dark:bg-clip-text dark:text-transparent">
           Encrypt and Self-Destruct Your Notes
         </h1>
-        <p className="text-lg mb-7 mt-8 w-3/4">
+        <p className="text-lg mb-7 mt-8 sm:w-3/4 md:w-3/4">
           LockNotes: Encrypt, Share, Forget. Send sensitive info securely with
           self-destructing notes. Only you and the recipient can read, thanks to
           end-to-end encryption.
