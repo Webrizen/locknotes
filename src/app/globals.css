@@ -38,3 +38,7 @@ body {
   background-size: 80px 80px;
   background-position: 0 0, 40px 40px;
 }
+
+.bg-sponsorship{
+  background-image: linear-gradient(-20deg, #6e45e2 0%, #88d3ce 100%);
+}
