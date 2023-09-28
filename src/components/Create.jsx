@@ -58,7 +58,7 @@ export default function Create() {
       <section className="min-h-screen flex items-center justify-center">
         <div className="p-8 rounded-lg shadow-lg w-full md:w-2/3 lg:w-1/2">
           <h1 className="text-3xl font-semibold mb-1">Create a Secret Note</h1>
-          <p className="text-gray-600 text-xs mb-4">For custom links, please ensure that the length of your text exceeds 16 characters.</p>
+          <p className="text-gray-600 text-xs mb-4">For custom links, please ensure that the length of your page link exceeds 16 characters.</p>
           {user && (
             <div className="mb-4 flex md:flex-row flex-col gap-1 items-center justify-center">
               <input

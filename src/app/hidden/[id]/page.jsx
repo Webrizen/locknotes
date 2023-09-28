@@ -5,8 +5,8 @@ import Swal from "sweetalert2";
 
 export default function ReadSecretNote({ params }) {
   const firestore = getFirestore();
-  const [note, setNote] = useState("");
-  
+  const [note, setNote] = useState("Reading...");
+
   useEffect(() => {
     const fetchNote = async () => {
       try {
@@ -17,10 +17,8 @@ export default function ReadSecretNote({ params }) {
           const noteData = noteDocSnapshot.data();
           setNote(noteData.message);
 
-          // Automatically delete the note when the user leaves the page
-          window.addEventListener("beforeunload", () => {
-            deleteNote();
-          });
+          // Delete the note immediately after reading it
+          await deleteDoc(noteDocRef);
         } else {
           console.error("Note not found.");
           Swal.fire({
@@ -30,32 +28,17 @@ export default function ReadSecretNote({ params }) {
           });
         }
       } catch (error) {
-        console.error("Error fetching note: ", error);
+        console.error("Error fetching or deleting note: ", error);
         Swal.fire({
           icon: "error",
           title: "Error",
-          text: "Error fetching note.",
+          text: "Error fetching or deleting note.",
         });
       }
     };
 
     fetchNote();
   }, [firestore, params.id]);
-
-  // Function to delete the note
-  const deleteNote = async () => {
-    try {
-      const noteDocRef = doc(firestore, "notes", params.id);
-      await deleteDoc(noteDocRef);
-    } catch (error) {
-      console.error("Error deleting note: ", error);
-      Swal.fire({
-        icon: "error",
-        title: "Error",
-        text: "Error deleting note.",
-      });
-    }
-  };
 
   return (
     <>
@@ -69,12 +52,6 @@ export default function ReadSecretNote({ params }) {
             value={note}
             readOnly
           ></textarea>
-          <button
-            onClick={deleteNote}
-            className="bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-2 px-4 rounded-full focus:outline-none focus:ring-2 focus:ring-indigo-200"
-          >
-            Destroy Note
-          </button>
         </div>
       </section>
     </>
