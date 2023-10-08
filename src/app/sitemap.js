@@ -2,39 +2,27 @@ export default function sitemap() {
     return [
       {
         url: 'https://locknotes.in',
-        lastModified: new Date(),
-        changeFrequency: 'yearly',
-        priority: 1,
+        changeFrequency: 'always',
       },
       {
         url: 'https://locknotes.in/about',
-        lastModified: new Date(),
-        changeFrequency: 'monthly',
-        priority: 0.8,
+        changeFrequency: 'always',
       },
       {
-        url: 'https://locknotes.in/contact',
-        lastModified: new Date(),
-        changeFrequency: 'weekly',
-        priority: 0.5,
+        url: 'https://locknotes.in/contact',        
+        changeFrequency: 'always',        
       },
       {
-        url: 'https://locknotes.in/sponsorships',
-        lastModified: new Date(),
-        changeFrequency: 'weekly',
-        priority: 0.5,
+        url: 'https://locknotes.in/sponsorships',        
+        changeFrequency: 'always',        
       },
       {
         url: 'https://locknotes.in/create',
-        lastModified: new Date(),
-        changeFrequency: 'weekly',
-        priority: 0.5,
+        changeFrequency: 'always',
       },
       {
         url: 'https://locknotes.in/accounts',
-        lastModified: new Date(),
-        changeFrequency: 'weekly',
-        priority: 0.5,
+        changeFrequency: 'always',        
       },
     ]
   }
